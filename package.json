@@ -1,0 +1,25 @@
+{
+  "name": "x-tunnel-ssh",
+  "version": "0.0.1",
+  "description": "open ssh tunnel",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clear": "node tools/clear.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "bin": {
+    "open-tunnel": "./dist/index.js"
+  },
+  "dependencies": {
+    "tunnel-ssh": "^4.1.4",
+    "x-command-parser": "^0.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "@types/tunnel-ssh": "^4.1.0"
+  },
+  "repository": "https://github.com/koaqiu/x-mysql.git",
+  "author": "koaqiu <koaqiu@gmail.com>",
+  "license": "MIT"
+}
