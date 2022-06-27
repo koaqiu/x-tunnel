@@ -57,6 +57,7 @@ export const openTunnel = (config: IConfig) => {
         localHost: '127.0.0.1',
         privateKey: config.SshConfig.privateKey,
         keepAlive: true,
+        readyTimeout:99999,
     }
     return new Promise<Server>((resolve, reject) => {
         const tunnel = Tunnel(newStyleConfig, (err) => {

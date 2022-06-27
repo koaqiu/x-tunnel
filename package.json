@@ -12,7 +12,7 @@
     "open-tunnel": "./dist/index.js"
   },
   "dependencies": {
-    "tunnel-ssh": "^4.1.4",
+    "tunnel-ssh": "4.1.6",
     "x-command-parser": "^0.0.6"
   },
   "devDependencies": {
